@@ -1,0 +1,6 @@
+{
+    "excluded_monitors": [
+        "Example service",
+        "Another example"
+    ]
+}

@@ -7,10 +7,10 @@ Integration layer to enable compatibility between services like HetrixTools and 
 
 
 ## Current supported APIs:
-* HetrixTools
+* UptimeRobot
 ## Planned supported APIs:
 * UptimeKuma
-* UptimeRobot
+* HetrixTools
 * BetterStack
 
 

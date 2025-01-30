@@ -1,0 +1,8 @@
+{
+  "yourData": "Your data will go here once you run uptimerobot.py with an API key in .env, see env.example for example.",
+  "venv": "You will need to setup a venv to run this, see https://docs.python.org/3/library/venv.html for documentaton.",
+  "packages": "Use pip install -r requirements.txt to install all requirements (Use venv)",
+  "cron": "You can setup a CRON to have this script run as often as you would like. See https://help.ubuntu.com/community/CronHowto for documentaton",
+  "bugs": "If you encounter any bugs or issues, please create an issue at https://github.com/layeredy/uptimematrix-translators/issues",
+  "notice": "This .json file will be overwritten upon first successfull startup of uptimerobot.py, if you need to see this file again, check the Github repository."
+}
