@@ -28,4 +28,19 @@ Use pip install -r requirements.txt to install all requirements (Use venv)
 
 If you encounter any bugs or issues, please create an issue at https://github.com/layeredy/uptimematrix-translators/issues
 
-This .json file will be overwritten upon first successfull startup of uptimerobot.py, if you need to see this file again, check the Github repository.
+## To Automate:
+
+Requirements:
+- Crontab
+
+First, make sure to make the scripts executable by doing:
+
+`sudo chmod +x automate.sh` and `sudo chmod +x refresh.sh`
+
+Once the scripts can be executed, run `crontab -e` and add this line to the bottom of the file:
+
+`@reboot nohup /var/www/status/automate.sh > /dev/null 2>&1 &`
+
+And replace `/var/www/status/` path with your actual directory.
+
+Now you're ready! Rather than rebooting for this to take affect, you can run `./automate.sh` in your working directory and it will automatically run every 60 seconds!
